@@ -1,0 +1,1 @@
+console: build/install/hellowworld/bin/helloworld

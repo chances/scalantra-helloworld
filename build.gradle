@@ -13,16 +13,10 @@ apply plugin: 'application'
 
 mainClassName = 'Foo'
 
-//jar {
-//    from {
-//        configurations.compile.collect {
-//            it.isDirectory() ? it : zipTree(it)
-//        }
-//        configurations.runtime.collect {
-//            it.isDirectory() ? it : zipTree(it)
-//        }
-//    }
-//}
+// Staging task for Heroku
+task stage {
+    dependsOn clean, installDist
+}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
