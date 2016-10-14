@@ -1,1 +1,1 @@
-console: build/install/hellowworld/bin/helloworld
+web: gradle buildProduct && build/output/helloworld/run.sh --runnerArg=httpPort=$PORT
