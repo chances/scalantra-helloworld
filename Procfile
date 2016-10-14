@@ -1,1 +1,1 @@
-web: gradle buildProduct && build/output/helloworld/run.sh --runnerArg=httpPort=$PORT
+web: ./gradlew buildProduct && build/output/helloworld/run.sh --runnerArg=httpPort=$PORT
