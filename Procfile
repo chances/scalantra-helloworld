@@ -1,1 +1,1 @@
-web: build/output/helloworld/run.sh --runnerArg=httpPort=$PORT
+web: build/output/helloworld/start.sh --runnerArg=httpPort=$PORT
